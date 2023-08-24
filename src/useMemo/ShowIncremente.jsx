@@ -1,5 +1,5 @@
 export const ShowIncremente = ({increment}) => {
   return (
-    <button onClick={() => { increment() }}>Incrementar</button>
+    <button onClick={() => { increment(5) }}>Incrementar</button>
   )
 }
