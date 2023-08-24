@@ -7,10 +7,11 @@ import { CounterWithCustomHook } from './useState/CounterWithCustomHook'
 
 import { SimpleForm } from './useEffect/SimpleForm'
 import { FormWithCustomHook } from './useEffect/FormWithCustomHook'
+import { MultipleCustomHooks } from './multipleHooks/MultipleCustomHooks'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <FormWithCustomHook />
+    <MultipleCustomHooks />
   </React.StrictMode>,
 )
